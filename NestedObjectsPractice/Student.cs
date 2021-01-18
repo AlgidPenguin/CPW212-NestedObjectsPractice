@@ -21,7 +21,9 @@ namespace NestedObjectsPractice
         /// </summary>
         public string LastName { get; set; }
 
-
+        /// <summary>
+        /// List of courses student is enrolled in
+        /// </summary>
         public List<Course> Schedule { get; set; }
     }
 }
