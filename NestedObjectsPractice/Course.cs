@@ -27,7 +27,7 @@ namespace NestedObjectsPractice
         /// <summary>
         /// The instructor that teaches the course
         /// </summary>
-        public Instructor ClassInstructor { get; set; }
+        public Instructor CourseInstructor { get; set; }
 
         /// <summary>
         /// The full list of the students currently taking the class.
